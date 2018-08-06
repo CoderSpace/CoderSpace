@@ -468,10 +468,10 @@ p {
   }
 
 
-  @media(max-width: 1024px) {
-    .img-partners2 margin: 0px 0px 25px 25px;
-    width: 20%;
-  }
+  /*@media(max-width: 1024px) {*/
+  /*  .img-partners2 margin: 0px 0px 25px 25px;*/
+  /*  width: 20%;*/
+  /*}*/
 
   .wufoo li.focused {
     background-color: transparent;
