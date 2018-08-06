@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 body {
   font-family: 'Roboto', sans-serif;
-  ;
-  width: 100%;
+  
+  width:100%;
   margin: 0;
   background-color: #1B1C1E;
-  color: white;
+  color:white;
 
 
 }
@@ -25,12 +26,15 @@ body {
 
 .subtitles {
   text-align: center;
-  padding-top: 2%;
+  padding-top: 10%;
+  
+  
 }
 
 .navbar li {
   list-style-type: none;
-  font-size: 2em;
+  /*font-size: 2em;*/
+  padding-right:1em;
 }
 
 a {
@@ -44,7 +48,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   min-height: 4.688em;
   top: 0;
   left: 0;
@@ -56,6 +60,8 @@ a {
   border-bottom: solid;
   border-width: .2em;
   border-color: #FFFFFF;
+  font-size: 2em;
+
 }
 
 #myTopNav2 {
@@ -73,6 +79,7 @@ a {
 
 .programs {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
 
 }
@@ -80,6 +87,7 @@ a {
 .programnames {
   font-size: 2em;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 
 }
@@ -87,6 +95,7 @@ a {
 .programdescrip {
   font-size: 1.2em;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -94,47 +103,60 @@ a {
 .satmet-up,
 .schclubs {
   width: 25em;
-  background-color: rgb(27, 28, 30);
   display: flex;
   flex-wrap: wrap;
-  justify-conten
   align-items: center;
   border-width: 0.3em;
   margin: 3em;
 }
 
-@media screen and (max-width:835px) {
+/*for program.html*/ @media screen and (max-width:835px) {
   .programs {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
   }
   .programnames {
-    font-size: 2em;
+    font-size: 1.8em;
     display:flex;
     justify-content: center;
   }
   .programdescrip {
-    font-size: 1.2em;
+    font-size: 1em;
     display: flex;
     flex-wrap: wrap;
   }
   .summerpro,
   .satmet-up,
   .schclubs {
-    margin: 3em;
-    width: 25em;
+    margin: 0;
+    width: auto;
     background-color: #1B1C1E;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
-}
+  }}
+/*for index.html*/@media screen and (max-width:835px) {
 
-@media screen and (max-width:835px) {
-  /*.programimgs{*/
-  /*display:none;*/
-  /*}*/
+  }
+/*for about.html*/ @media screen and (max-width:835px) {
+  .organizers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .partner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
 }
+  .chicago{
+    width:30%;
+    height: 10%;
+    bottom:50%;
+  }
 
 .drummerteamimg {
   width: 12.5em;
@@ -188,8 +210,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: solid black 2.25px;
+  border-top: solid black .2em;
   flex-wrap: wrap;
+  
   padding-bottom: 0px;
   right: 0;
   position: relative;
@@ -205,22 +228,22 @@ footer {
   font-size: 1.7em;
   padding: .60em;
   background-color: #74C8C0;
+  z-index:0;
   border-radius: 5.5px;
-  width: 30%;
   height: 20%;
-  margin-left: 1em;
+  margin-left: .5em;
   border: none;
-
-
+  flex-direction:column;
+  position:relative;
 }
 
 .applybtn:hover {
   background-color: #68B4AD;
 }
 
-button {
+/*button {*/
 
-}
+/*}*/
 
 .homesudtitles {
   font-family: 'Roboto', sans-serif;
@@ -231,13 +254,14 @@ button {
 
 .homeparagraphs {
   font-family: 'Roboto', sans-serif;
-  ;
   font-size: 1.75em;
   margin-left: 1em;
 }
 
 .icon {
-  display: none;
+  display:none;
+   
+  
 }
 
 .nav button {
@@ -275,25 +299,23 @@ main {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4.688em;
+  margin-top: 12.675em;
   padding-bottom: 2em;
 }
 
 .homeban {
   width: 100%;
-  /*height:35em;*/
+  height:40em;
 }
 
 hr {
   border-color: #7A8CFF;
 }
 
-.foot   {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-
-
+.foot{
+  display:flex;
+  justify-content:space-between;
+  width:50%;
 }
 
 #myTopNav2.stickynav {
@@ -312,14 +334,60 @@ dropdown {
 }
 
 
+
 .dropdown-content {
   display: none;
   position: absolute;
-  
+}
+.icons2{
+  list-style-type:none;
+  font-size: 2em;
 }
 
+.fa-question:hover{
+color:#32CD32;  
 
-.fas fa-question:hover{
-background-color:green;  
+}
+.fa-lightbulb:hover{
+  color:yellow;
+}
+.fa-heart:hover{
+  color:red;
+}
+.fa-users:hover{
+  color:#42C0FB;
+}
 
+@media screen and (max-width:835px) {
+
+  ul.nav li:not(:last-child) {
+    display: none;
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+    }
+}
+.fa-li{
+ font-family: 'Roboto', sans-serif;
+  width:100%;
+  margin: 0;
+  background-color: #1B1C1E;
+  color:white;
+}
+ul.fa-ul li{
+  font-size:1.75em;
+  font-family: 'Roboto', sans-serif;
+}
+ul.fa-ul{
+  margin-left:4em;
 }
