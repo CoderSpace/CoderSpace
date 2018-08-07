@@ -161,7 +161,7 @@ a {
     justify-content: center;
     
   }
-  .microsoft {
+  .resize {
     width:50%;
     height:50;
     margin:bottom;
@@ -418,11 +418,11 @@ footer a {
 }
 
 .fa-li {
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  margin: 0;
-  background-color: #1B1C1E;
-  color: white; 
+  /*font-family: 'Roboto', sans-serif;*/
+  /*width: 100%;*/
+  /*margin: 0;*/
+  /*background-color: #1B1C1E;*/
+  /*color: white; */
   
 }
 
