@@ -159,6 +159,12 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    
+  }
+  .microsoft {
+    width:50%;
+    height:50;
+    margin:bottom;
   }
 
 }
@@ -337,7 +343,7 @@ footeraddess
 footeremail,
 tel{
   display: flex;
-  justify-content:center
+  justify-content:center;
   flex-wrap :wrap;
 }
 }
