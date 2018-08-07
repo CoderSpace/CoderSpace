@@ -2,11 +2,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  
-  width:100%;
+
+  width: 100%;
   margin: 0;
   background-color: #1B1C1E;
-  color:white;
+  color: white;
 
 
 }
@@ -27,14 +27,14 @@ body {
 .subtitles {
   text-align: center;
   padding-top: 10%;
-  
-  
+
+
 }
 
 .navbar li {
   list-style-type: none;
   /*font-size: 2em;*/
-  padding-right:1em;
+  padding-right: 1em;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-  min-height: 4.688em;
+  min-height: 3.14159265358979em;
   top: 0;
   left: 0;
   margin: 0 0 2em 0;
@@ -58,7 +58,7 @@ a {
   z-index: 2;
   overflow: hidden;
   border-bottom: solid;
-  border-width: .2em;
+  border-width: .0987em;
   border-color: #FFFFFF;
   font-size: 2em;
 
@@ -70,8 +70,8 @@ a {
 }
 
 .nav-logo {
-  width: 6.0em;
-  height: 2.6em;
+  width: 6em;
+  height: 4em;
   display: flex;
   align-items: center;
   margin-bottom: -.40em;
@@ -79,8 +79,10 @@ a {
 
 .programs {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
+  width: 100%;
 
 }
 
@@ -110,7 +112,9 @@ a {
   margin: 3em;
 }
 
-/*for program.html*/ @media screen and (max-width:835px) {
+/*for program.html*/
+
+@media screen and (max-width:835px) {
   .programs {
     display: flex;
     justify-content: center;
@@ -118,7 +122,7 @@ a {
   }
   .programnames {
     font-size: 1.8em;
-    display:flex;
+    display: flex;
     justify-content: center;
   }
   .programdescrip {
@@ -135,28 +139,42 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }}
-/*for index.html*/@media screen and (max-width:835px) {
+  }
+}
 
-  }
-/*for about.html*/ @media screen and (max-width:835px) {
-  .organizers{
+/*for index.html*/
+
+@media screen and (max-width:835px) {}
+
+/*for about.html*/
+
+@media screen and (max-width:835px) {
+  .organizers {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .partner{
+  .partner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    
+  }
+  .resize {
+    width:50%;
+    height:50;
+    margin:bottom;
   }
 
 }
-  .chicago{
-    width:30%;
-    height: 10%;
-    bottom:50%;
-  }
+
+.chicago {
+  width: 30%;
+  height: 10%;
+  bottom: 50%;
+}
+
 
 .drummerteamimg {
   width: 12.5em;
@@ -206,13 +224,12 @@ a {
 footer {
   /*background-color: black;*/
   width: 100%;
-  min-height: 5em;
+  min-height: 3.14159265358979em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: solid black .2em;
+  border-top: solid black .0987em;
   flex-wrap: wrap;
-  
   padding-bottom: 0px;
   right: 0;
   position: relative;
@@ -225,16 +242,20 @@ footer {
 }
 
 .applybtn {
+  text-align: center;
   font-size: 1.7em;
   padding: .60em;
   background-color: #74C8C0;
-  z-index:0;
+  z-index: 0;
   border-radius: 5.5px;
   height: 20%;
+  /*width: 4em;*/
   margin-left: .5em;
   border: none;
-  flex-direction:column;
-  position:relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .applybtn:hover {
@@ -247,7 +268,6 @@ footer {
 
 .homesudtitles {
   font-family: 'Roboto', sans-serif;
-  ;
   font-size: 2em;
 
 }
@@ -259,9 +279,9 @@ footer {
 }
 
 .icon {
-  display:none;
-   
-  
+  display: none;
+
+
 }
 
 .nav button {
@@ -305,19 +325,28 @@ main {
 
 .homeban {
   width: 100%;
-  height:40em;
+  height: 45em;
 }
 
 hr {
   border-color: #7A8CFF;
 }
 
-.foot{
-  display:flex;
-  justify-content:space-between;
-  width:50%;
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
 }
-
+@media screen and (max-width:835px){
+footeraddess
+footeremail,
+tel{
+  display: flex;
+  justify-content:center;
+  flex-wrap :wrap;
+}
+}
 #myTopNav2.stickynav {
   display: flex;
   top: 0;
@@ -328,34 +357,44 @@ footer a {
   padding-bottom: 1em;
 }
 
-dropdown {
-  position: relative;
-  display: inline-block;
+@media screen and (max-width:835px) {
+  footer {
+    flex-direction: column;
+    align-items:center;
+  }
 }
+/*dropdown {*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*}*/
 
 
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-}
-.icons2{
-  list-style-type:none;
+/*.dropdown-content {*/
+/*  display: none;*/
+/*  position: absolute;*/
+/*}*/
+
+.icons2 {
+  list-style-type: none;
   font-size: 2em;
 }
 
-.fa-question:hover{
-color:#32CD32;  
+.fa-question:hover {
+  color: #32CD32;
 
 }
-.fa-lightbulb:hover{
-  color:yellow;
+
+.fa-lightbulb:hover {
+  color:#FFF933;
 }
-.fa-heart:hover{
-  color:red;
+
+.fa-heart:hover {
+  color: red;
 }
-.fa-users:hover{
-  color:#42C0FB;
+
+.fa-users:hover {
+  color: #42C0FB;
 }
 
 @media screen and (max-width:835px) {
@@ -375,19 +414,26 @@ color:#32CD32;
   }
   ul.nav.responsive li {
     display: block;
-    }
+  }
 }
-.fa-li{
- font-family: 'Roboto', sans-serif;
-  width:100%;
-  margin: 0;
-  background-color: #1B1C1E;
-  color:white;
+
+.fa-li {
+  /*font-family: 'Roboto', sans-serif;*/
+  /*width: 100%;*/
+  /*margin: 0;*/
+  /*background-color: #1B1C1E;*/
+  /*color: white; */
+  
 }
-ul.fa-ul li{
-  font-size:1.75em;
+
+ul.fa-ul li {
+  font-size: 1.75em;
   font-family: 'Roboto', sans-serif;
+ 
 }
-ul.fa-ul{
-  margin-left:4em;
+
+ul.fa-ul {
+  margin-left: 4em;
+  
 }
+
