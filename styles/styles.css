@@ -13,7 +13,6 @@ body {
   width: 12.082em;
   height: 8.000em;
   margin-left: 2em;
-  align-items:center;
 }
 
 .partner {
@@ -466,6 +465,7 @@ ul.fa-ul {
 
 .soft{
   height:5em;
+  align-self:center;
 }
 
 .emerson {
