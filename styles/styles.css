@@ -461,3 +461,6 @@ button:active {
   transform: translateY(4px);
   color: #000000;
 }
+.newsletter{
+  border: 5px solid white;
+}
