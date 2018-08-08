@@ -463,4 +463,6 @@ button:active {
 }
 .newsletter{
   border: 5px solid white;
+  padding: 1em;
+  border-radius:10px;
 }
