@@ -3,14 +3,16 @@
 
 <head>
     <title>CoderSpace </title>
+    <link rel="stylesheet" href="styles/form.css" type="text/css" />
     <link rel="stylesheet" href="styles/styles.css" type="text/css" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/coderspace-logo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
-
 <body>
+
     <header>
         <nav>
             <ul id="myTopNav" class="navbar nav">
@@ -19,38 +21,46 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="programs.html">Programs</a></li>
                 <li><a href="donate.html">Donate</a></li>
-                <li><a href="shop.html">Shop</a></li>
                 <li id="icon" class="icon"><button>&#9776</button></li>
 
             </ul>
         </nav>
         <script type="text/javascript" src="js/nav.js"></script>
     </header>
-
     <main>
-        <h1 class="prosubhead">Programs</h1>
-        <div class="programs">
 
-            <div class="summerpro">
-                <img src="images/programimg-1.jpg" class="programimgs">
-                    <h2 class="programnames">Summer Apprenticeship</h2>
-                    <p class="programdescrip">In our intensive 8-week summer program, youth learn computer languages that power the web, collaborate on real-world projects and showcase their work at Demo Day.</p>
-                    <a href="summer.html"><button class="applybtn">Apply</button></a></div>
-            <div class="satmet-up">
-                <img src="images/programimg-2.JPG" class="programimgs">
-                    <h2 class="programnames">Saturday Meet-ups</h2>
-                    <p class="programdescrip">During the academic year CoderSpace hosts weekend meet-ups for youth...</p>
-                    <a href="saturdays.html"><button class="applybtn">Attend</button></a>
-            </div>
-            <br></br>
-            <div class="schclubs">
-                <img src="images/programimg-3.jpg" class="programimgs">
-                    <h2 class="programnames">School Clubs</h2>
-                    <p class="programdescrip">Youth apply what they learn at CoderSpace to lead computer science clubs at their schools.</p>
-                    <a href="club.html"><button class="applybtn">Join</button></a>
-            </div>
-        </div>
-
+        <script type="text/javascript">
+            var zd6h44a18hhlsk;
+            (function(d, t) {
+                var s = d.createElement(t),
+                    options = {
+                        'userName': 'coderspace',
+                        'formHash': 'zd6h44a18hhlsk',
+                        'autoResize': true,
+                        'height': '1929',
+                        'async': true,
+                        'host': 'wufoo.com',
+                        'header': 'show',
+                        'ssl': true
+                    };
+                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState;
+                    if (rs)
+                        if (rs != 'complete')
+                            if (rs != 'loaded') return;
+                    try {
+                        zd6h44a18hhlsk = new WufooForm();
+                        zd6h44a18hhlsk.initialize(options);
+                        zd6h44a18hhlsk.display();
+                    }
+                    catch (e) {}
+                };
+                var scr = d.getElementsByTagName(t)[0],
+                    par = scr.parentNode;
+                par.insertBefore(s, scr);
+            })(document, 'script');
+        </script>
     </main>
     <footer>
         <div class="foot">
@@ -60,12 +70,13 @@
             <a href="https://github.com/search?utf8=%E2%9C%93&q=coderspace&type=" target="_blank"><i class="fab fa-github fa-2x"></i></a>
 
         </div>
-        <a href="https://www.google.com/maps/dir/''/5225+S+Cottage+Grove+Ave,+Chicago,+IL+60615/@41.7994931,-87.6084398,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880e29468924aacd:0x7027bfb76286c0a!2m2!1d-87.6062511!2d41.7994931" target="_blank">5225 S. Cottage Grove Ave., Chi., IL 60615</a>
+        <a href="https://www.google.com/maps/dir/''/5225+S+Cottage+Grove+Ave,+Chicago,+IL+60615/@41.7994931,-87.6084398,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880e29468924aacd:0x7027bfb76286c0a!2m2!1d-87.6062511!2d41.7994931" target="_blank">5225 S. Cottage Grove Avenue., Chicago, IL 60615</a>
         <a href="mailto:helloworld@coderspace.org" target="_blank">helloworld@coderspace.org</a>
         <a class="tel" href="tel:773-658-9598">(773)-658-9598</a>
 
 
     </footer>
+
 </body>
 
 </html>
