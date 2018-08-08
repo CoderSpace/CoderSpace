@@ -36,6 +36,7 @@ a {
   }
 
 .navbar {
+  /*height: */
   width: 100%;
   background-color: #1B1C1E;
   display: flex;
@@ -43,9 +44,9 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   min-height: 2.5em;
-  top: 0;
+  top: 0em;
   left: 0;
-  margin: 0 0 2em 0;
+  margin: 0em 0em 2em 0em;
   flex-wrap: wrap;
   position: fixed;
   z-index: 2;
@@ -55,7 +56,8 @@ a {
   border-color: #FFFFFF;
   font-size: 2em;
   margin-bottom:3em;
-
+  /*margin-top:3em;*/
+  /*border-bottom:3em; */
 }
 
 #myTopNav2 {
@@ -314,6 +316,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2em;
+  margin-top: 3em;
 }
 
 .homebanner {
@@ -341,7 +344,7 @@ footer a {
   padding-bottom: 1em;
 }
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:900px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -464,3 +467,7 @@ button:active {
 .newsletter{
   border: 5px solid white;
 }
+
+/*.donatetext{*/
+/*  margin-top: 8em;*/
+/*}*/
