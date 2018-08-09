@@ -10,6 +10,7 @@ body {
 
 .partners {
   /*   margin-top:em; */
+  width: 12.082em;
   height: 8.000em;
   margin-left: 2em;
 }
@@ -36,6 +37,7 @@ a {
   }
 
 .navbar {
+  /*height: */
   width: 100%;
   background-color: #1B1C1E;
   display: flex;
@@ -43,11 +45,11 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   min-height: 2.5em;
-  top: 0;
+  top: 0em;
   left: 0;
-  margin: 0 0 2em 0;
+  margin: 0em 0em 2em 0em;
   flex-wrap: wrap;
-  position: fixed;
+  position:fixed;
   z-index: 2;
   overflow: hidden;
   border-bottom: solid;
@@ -55,12 +57,16 @@ a {
   border-color: #FFFFFF;
   font-size: 2em;
   margin-bottom:3em;
-
+  /*margin-top:3em;*/
+  /*border-bottom:3em; */
+  
 }
 
-#myTopNav2 {
-  display: none;
 
+#myTopNav2 {
+  transition: opacity 1s ease-out;
+  opacity:0;
+  height:0;
 }
 
 .nav-logo {
@@ -70,7 +76,10 @@ a {
   align-items: center;
   margin-bottom: -.40em;
 }
-
+.prosubhead{
+  display:flex;
+  justify-content: center;
+}
 .programs {
   display: flex;
   flex-wrap: wrap;
@@ -98,17 +107,17 @@ a {
 .summerpro,
 .satmet-up,
 .schclubs {
-  width: 21.87em;
+  width: 28.750em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border: .3em solid white;
   margin: 3em;
+  left: 0;
 }
 
 .programimgs {
-  width: 350px;
-  height: 365px;
+  width: 28.750em;
+  height: 22.688em;
 }
 
 /*for program.html*/
@@ -132,15 +141,18 @@ a {
   .summerpro,
   .satmet-up,
   .schclubs {
-    width: 21.87em;
+    width:auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    border: .3em solid white;
-    margin: 3em;
+  
+    
   }
+  .programimgs {
+  max-width: 100%;
+  height: 50%;
 }
-
+}
 
 /*for index.html*/
 
@@ -186,10 +198,12 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 22em;
+  width: 18em;
   margin: 0 7em 2em 7em;
 }
-
+b{
+  font-size: 1.3em;
+}
 .name,
 .title,
 .teams-exp {
@@ -213,6 +227,9 @@ a {
   flex-direction: row;
   justify-content: center;
 }
+.title{
+  font-size: 1.8em;
+}
 
 
 footer {
@@ -227,7 +244,7 @@ footer {
   padding-bottom: 0px;
   right: 0;
   position: relative;
-  font-size: 1.325em;
+  font-size: 1em;
   z-index: 0;
   flex-direction: column;
   border-color: white;
@@ -244,7 +261,6 @@ footer {
   border-radius: 5.5px;
   height: 20%;
   /*width: 4em;*/
-  margin-left: .5em;
   border: none;
   display: flex;
   justify-content: center;
@@ -288,9 +304,9 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:635px) {
 
-  ul.nav li:not(:last-child) {
+  ul.nav li:not(:first-child) {
     display: none;
   }
   ul.nav {
@@ -314,6 +330,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2em;
+  margin-top: 3em;
 }
 
 .homebanner {
@@ -332,16 +349,17 @@ hr {
 }
 
 #myTopNav2.stickynav {
-  display: flex;
   top: 0;
   left: 0;
+  opacity: 1;
+  height: auto;
 }
 
 footer a {
   padding-bottom: 1em;
 }
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:900px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -440,19 +458,33 @@ ul.fa-ul {
   font-family:sans-serif;
 }
 
-
-/* Shopify*/
-.lined {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.cps {
+  height:6em;
+}
+.hive {
+  height:6em;
 }
 
-button {
-  border-radius: 10px;
-  padding: 3px 6px;
-  background-color: #008CBA;
-  color: #fff;
+.soft{
+  height:5em;
+  align-self:center;
+}
+
+.emerson {
+  height:4em;
+  align-self: center;
+}
+
+
+
+.cpa {
+  width:15em;
+}
+@media screen and (max-width:600px) {
+.tagline {
+  font-size: 2em;
+  font-family:sans-serif;
+}
 }
 
 button:active {
@@ -463,6 +495,12 @@ button:active {
 }
 .newsletter{
   border: 5px solid white;
+
   padding: 1em;
   border-radius:10px;
 }
+
+}
+
+
+
