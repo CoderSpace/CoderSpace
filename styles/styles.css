@@ -294,7 +294,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: solid black .0987em;
+  border-top: solid black .1864em;
   flex-wrap: wrap;
   padding-bottom: 0px;
   right: 0;
@@ -619,7 +619,7 @@ button:active {
   color: #000000;
 }
 .newsletter{
-  border:  solid white .0987em;
+  border:  solid white .1864em;
   padding: 1em;
   border-radius:10px;
 }
