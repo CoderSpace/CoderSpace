@@ -117,15 +117,22 @@ a {
 .satmet-up,
 .schclubs {
   width: 28.750em;
+  height: 39.395em;
   /*display: flex;*/
   /*flex-wrap: wrap;*/
   margin: 3em;
   left: 0;
+  position: relative;
 }
 
 .programimgs {
   width: 28.750em;
   height: 22.688em;
+}
+@media screen and (max-width:435px) {
+  applybtn{
+    position: relative;
+  }
 }
 
 /*for program.html*/
@@ -153,6 +160,14 @@ a {
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     align-items: center;
+    position: relative;
+  
+    
+  }
+  .programimgs {
+  max-width: 100%;
+  height: auto;
+}
 
 
   }
@@ -284,6 +299,12 @@ footer {
 
 }
 
+/*.applybtn2{*/
+/*  margin-top: 2.19em;*/
+/*}*/
+/*.applybtn3{*/
+/*  margin-top: 2.09em;*/
+/*}*/
 .applybtn2 {
   margin-top: 2.19em;
 }
@@ -303,9 +324,11 @@ footer {
   /*width: 4em;*/
   border: none;
   display: flex;
+  align-items: flex-end;
   justify-content: center;
   flex-direction: column;
-  position: relative;
+  bottom: 0;
+  position: absolute;
 }
 
 .applybtn:hover {
