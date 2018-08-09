@@ -555,7 +555,7 @@ button:active {
 /*General*/
 
 body {
-  background-color: #333;
+  background-color: #1B1C1E;
 }
 
 /* Shopify*/
@@ -583,7 +583,7 @@ button:active {
 /*from the stripe file*/
 
 .donation-box {
-  background-color: #333;
+  background-color: #1B1C1E;
   padding: 5px;
   max-width: 60%;
   margin: auto;
