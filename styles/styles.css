@@ -522,7 +522,18 @@ button:active {
   border-radius:10px;
 }
 
+.corevalues{
+  margin-left:-1.4em;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: #1B1C1E;
+  color: white;
+  font-size: 1.7em;
+  
+
 }
+
+
 
 
 
