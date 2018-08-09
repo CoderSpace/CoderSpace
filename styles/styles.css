@@ -462,7 +462,7 @@ button:active {
   color: #000000;
 }
 .newsletter{
-  border: 5px solid white;
-  padding: 1em;
+  border:  solid white;
+  padding: .0987em;
   border-radius:10px;
 }
