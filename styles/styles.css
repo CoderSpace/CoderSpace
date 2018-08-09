@@ -600,7 +600,7 @@ button:active {
 .donation-box {
   background-color: #1B1C1E;
   padding: 5px;
-  max-width: 60%;
+  max-width: 100%;
   margin: auto;
 }
 
