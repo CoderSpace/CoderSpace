@@ -21,13 +21,21 @@ body {
 }
 
 .subtitles {
+  text-align: center;
+  padding-top: 12%;
   display: flex;
   justify-content: center;
   padding-top: 10%;
   margin-bottom: 10%;
 }
 
-
+@media screen and (max-width:835px) {
+  .subtitles {
+    text-align: center;
+    padding-top: 13%;
+  }
+  
+}
 
 .navbar li {
   list-style-type: none;
