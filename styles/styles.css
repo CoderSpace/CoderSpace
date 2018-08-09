@@ -475,6 +475,15 @@ ul.fa-ul {
 
 }
 
+@media screen and (max-width:600px) {
+  .partners {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-around;
+  }
+}
+
 .micro {
   height: 3em;
   align-self: center;
