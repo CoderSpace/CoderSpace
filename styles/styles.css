@@ -12,12 +12,13 @@ body {
   /*   margin-top:em; */
   width: 12.082em;
   height: 8.000em;
-  margin-left: 2em;
+  padding:5%;
 }
 
 .partner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .subtitles {
@@ -68,6 +69,10 @@ a {
   border-width: .0987em;
   border-color: #FFFFFF;
   font-size: 2em;
+  margin-bottom:3em;
+  /*margin-top:3em;*/
+  /*border-bottom:3em; */
+  
   margin-bottom: 3em;
   /*margin-top:3em;*/
   /*border-bottom:3em; */
@@ -220,7 +225,8 @@ a {
 }
 
 .chicago {
-  width: 15em;
+  width:15em;
+  height:6em;
 }
 
 
@@ -510,7 +516,7 @@ ul.fa-ul li {
 }
 
 ul.fa-ul {
-  margin-left: 4em;
+  margin-left: 5em;
 
 }
 
@@ -554,6 +560,7 @@ ul.fa-ul {
   height: 4em;
   align-self: center;
 }
+
 
 .cpa {
   width: 15em;
@@ -959,3 +966,23 @@ button:active {
   display: none;
   text-align: center;
 }
+
+button:active {
+  background-color: #007399;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #000000;
+}
+.newsletter{
+  border: 5px solid white;
+
+  padding: 1em;
+  border-radius:10px;
+}
+
+
+
+@media screen and (max-width:600px) {
+  
+}
+
