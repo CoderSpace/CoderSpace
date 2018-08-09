@@ -12,13 +12,13 @@ body {
   /*   margin-top:em; */
   width: 12.082em;
   height: 8.000em;
-  margin-left: 2em;
   padding:5%;
 }
 
 .partner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .subtitles {
