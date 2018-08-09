@@ -12,6 +12,9 @@ body {
   /*   margin-top:em; */
   width: 12.082em;
   height: 8.000em;
+  margin-left: 2em;
+  display:flex;
+  align-items:center;
   padding:5%;
 }
 
@@ -19,6 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .subtitles {
@@ -204,9 +208,9 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
-
+    margin:0;
   }
+  
   cps,
   soft,
   emerson,
@@ -522,10 +526,9 @@ ul.fa-ul {
 
 @media screen and (max-width:600px) {
   .partners {
-    margin-left:auto;
-    margin-right:auto;
     justify-content:center;
     align-items:center;
+    margin: 5% auto;
   }
 }
 
@@ -534,9 +537,7 @@ ul.fa-ul {
   align-self: center;
 }
 
-.polsky {
-  margin-right: 3em;
-}
+
 
 .tagline {
   font-size: 3em;
