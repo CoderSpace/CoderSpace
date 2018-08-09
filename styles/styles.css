@@ -225,7 +225,11 @@ a {
     justify-content: center;
     align-items: center;
   }
+  
 
+}
+.polsky {
+  margin:2%;
 }
 
 .chicago {
