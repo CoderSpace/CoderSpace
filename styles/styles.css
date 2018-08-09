@@ -801,6 +801,15 @@ button:active {
   color: #fff;
 }
 
+.corevalues{
+  margin-left:-1.4em;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: #1B1C1E;
+  color: white;
+  font-size: 1.7em;
+  
+
 /*requirement error color*/
 
 .donation-box .success .icon .border {
@@ -832,6 +841,8 @@ button:active {
 }
 
 /*reset path color*/
+
+
 
 /* Center the loader */
 
