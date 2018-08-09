@@ -220,9 +220,7 @@ a {
 }
 
 .chicago {
-  width: 30%;
-  height: 10%;
-  bottom: 50%;
+  width: 15em;
 }
 
 
@@ -518,10 +516,10 @@ ul.fa-ul {
 
 @media screen and (max-width:600px) {
   .partners {
-    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
     align-items:center;
-    flex-direction:column;
-    justify-content:space-around;
   }
 }
 
