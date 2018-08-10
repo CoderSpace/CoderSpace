@@ -106,7 +106,7 @@ a {
 .programnames {
   font-size: 2em;
   display: flex;
-  justify-content: center;
+  ju
   flex-wrap: wrap;
 
 }
@@ -173,13 +173,10 @@ a {
   max-width: 100%;
   height: auto;
 }
-
-
-  }
-  .programimgs {
-    max-width: 100%;
-    height: 50%;
-  }
+.applybtn{
+  margin: 0;
+  position: relative!important;
+}
 }
 
 /*for index.html*/
@@ -980,7 +977,92 @@ button:active {
   border-radius:10px;
 }
 
+@media screen and (max-width:435px) {
+  applybtn{
+    position: relative;
+  }
+}
 
+/*for program.html*/
+
+@media screen and (max-width:835px) {
+  .programs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .programnames {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+  }
+  .programdescrip {
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .summerpro,
+  .satmet-up,
+  .schclubs {
+    width: auto;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    position: relative;
+  
+    
+  }
+  .programimgs {
+  max-width: 100%;
+  height: auto;
+}
+.applybtn{
+  margin: 0;
+  position: relative !important;
+}
+}
+
+/*for index.html*/
+
+@media screen and (max-width:835px) {}
+
+/*for about.html*/
+
+@media screen and (max-width:835px) {
+  .organizers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .teams {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .partner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+  }
+  cps,
+  soft,
+  emerson,
+  cps,
+  hive,
+  micro,
+  polsky {
+    width: 100;
+    height: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
 
 @media screen and (max-width:600px) {
   
