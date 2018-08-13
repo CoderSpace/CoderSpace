@@ -1078,5 +1078,36 @@ button:active {
     }
 
   }
+  @media screen and (max-width:635px) {
+
+  ul.nav li:not(:first-child) {
+    display: none;
+  }
+  ul.nav li:first-child {
+    position: absolute;
+    left: -1.5em;
+  }
+  ul.nav li:nth-child(2) {
+    margin-top: 3em;
+  }
+  .nav-logo {
+    height: 3em;
+    margin-top: 0;
+
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
 
   @media screen and (max-width:600px) {}
