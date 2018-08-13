@@ -83,7 +83,7 @@ a {
 #myTopNav2 {
   transition: opacity 1s ease-out;
   opacity: 0;
-  height: 0;
+  height: auto;
 }
 
 .nav-logo {
