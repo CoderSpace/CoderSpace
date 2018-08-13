@@ -628,19 +628,75 @@ body {
   flex-wrap: wrap;
 }
 
-button {
-  border-radius: 10px;
-  padding: 3px 6px;
-  background-color: #008CBA;
-  color: #fff;
+.product2 {
+  margin-top: 35px;
 }
 
-button:active {
-  background-color: #007399;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  color: #000000;
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-left:100em;*/
+  height:100vh;
 }
+
+.fa-spinner {
+  color:#74c8c0;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
 
 .newsletter {
   border: solid white .1864em;
