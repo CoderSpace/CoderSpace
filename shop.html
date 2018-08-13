@@ -10,7 +10,7 @@
 </head>
 
 
-<body>
+<body onload="myFunction()">
     <header>
         <nav>
             <ul id="myTopNav" class="navbar nav">
@@ -29,6 +29,11 @@
     <main>
 
         <h1 class="subtitles">Shop</h1>
+        <div id="Loader" class="dots">
+            <i class="fas fa-spinner fa-pulse fa-6x"></i>
+        </div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+        </div>
         <div class="lined">
             <!--T Shirt-->
             <div class="product" id='product-component-1533060464974'></div>
@@ -52,7 +57,7 @@
 
 
     </footer>
-  <script type="text/javascript" src="js/shopify.js"></script>
+    <script type="text/javascript" src="js/shopify.js"></script>
 
 </body>
 

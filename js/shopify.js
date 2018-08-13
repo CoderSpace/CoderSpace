@@ -545,3 +545,13 @@
   })();
   /*]]>*/
   
+  var myVar;
+
+function myFunction() {
+   myVar = setTimeout(showPage, 1300);
+}
+
+function showPage() {
+ document.getElementById("Loader").style.display = "none";
+ document.getElementById("myDiv").style.display = "block";
+}
