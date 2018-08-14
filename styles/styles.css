@@ -323,6 +323,25 @@ footer {
     display: block;
   }
 }
+@media screen and (max-width:335px) {
+
+  ul.nav li:not(:first-child) {
+    display: none;
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
 
 main {
 
