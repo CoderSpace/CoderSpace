@@ -35,7 +35,7 @@ body {
   padding-top: 12%;
   display: flex;
   justify-content: center;
-  margin-bottom: 10%;
+  /*margin-bottom: 10%;*/
 }
 
 @media screen and (max-width:500px) {
@@ -644,11 +644,12 @@ body {
   justify-content: center;
   align-items: center;
   /*margin-left:100em;*/
-  height:100vh;
+  /*margin-top: 100em;*/
+  height:75vh;
 }
 
 .fa-spinner {
-  color:#74c8c0;
+  color: white;
 }
 
 @-webkit-keyframes spin {
