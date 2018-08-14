@@ -20,7 +20,7 @@ icon.addEventListener("click",() =>{
 });
 
 window.addEventListener("scroll" ,() =>{
-  if (window.pageYOffset > 265) {
+  if (window.pageYOffset > 165) {
     nav2.classList.add("stickynav");
   } else {
     nav2.classList.remove("stickynav");
