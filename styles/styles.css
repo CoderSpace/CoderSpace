@@ -234,7 +234,6 @@ a {
   height: 6em;
 }
 
-
 .drummerteamimg {
   width: 12.5em;
   height: 18em;
@@ -286,7 +285,6 @@ b {
 .title {
   font-size: 1.8em;
 }
-
 
 footer {
   /*background-color: black;*/
@@ -545,8 +543,6 @@ ul.fa-ul {
   align-self: center;
 }
 
-
-
 .tagline {
   font-size: 3em;
   font-family: sans-serif;
@@ -569,7 +565,6 @@ ul.fa-ul {
   height: 4em;
   align-self: center;
 }
-
 
 .cpa {
   width: 15em;
@@ -596,7 +591,6 @@ button:active {
   padding: 1em;
   border-radius: 10px;
 }
-
 
 @media screen and (min-width:320px){
 .fixed {
@@ -643,7 +637,7 @@ button:active {
   border-radius: 10px;
 }
 
-/*from the stripe file*/
+/*From the stripe file*/
 .donation-box {
   background-color: #1B1C1E;
   padding: 5px;
