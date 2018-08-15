@@ -1,15 +1,16 @@
-  
-//t shirt
+  //t shirt
   /*<![CDATA[*/
   (function() {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
     if (window.ShopifyBuy) {
       if (window.ShopifyBuy.UI) {
         ShopifyBuyInit();
-      } else {
+      }
+      else {
         loadScript();
       }
-    } else {
+    }
+    else {
       loadScript();
     }
 
@@ -267,134 +268,139 @@
     }
   })();
   /*]]>*/
-  
-  
-  
-// tote bag
-/*<![CDATA[*/
-    (function() {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
-        } else {
-          loadScript();
-        }
-      } else {
+
+
+
+
+
+
+  // tote bag
+  /*<![CDATA[*/
+  (function() {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      }
+      else {
         loadScript();
       }
+    }
+    else {
+      loadScript();
+    }
 
-      function loadScript() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = scriptURL;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-        script.onload = ShopifyBuyInit;
-      }
+    function loadScript() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = scriptURL;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+      script.onload = ShopifyBuyInit;
+    }
 
-      function ShopifyBuyInit() {
-        var client = ShopifyBuy.buildClient({
-          domain: 'coderspace-org.myshopify.com',
-          apiKey: 'd9de0ac53831dce8421ceff79f16b854',
-          appId: '6',
-        });
-        ShopifyBuy.UI.onReady(client).then(function(ui) {
-          ui.createComponent('product', {
-            id: [1321691709511],
-            node: document.getElementById('product-component-1533060495762'),
-            moneyFormat: '${{amount}}',
-            options: {
-              "product": {
-                "variantId": "all",
-                "width": "240px",
-                "contents": {
-                  "imgWithCarousel": false,
-                  "variantTitle": false,
-                  "description": false,
-                  "buttonWithQuantity": false,
-                  "quantity": false
-                },
-                "styles": {
-                  "product": {
-                    "@media (min-width: 601px)": {
-                      "max-width": "100%",
-                      "margin-left": "0",
-                      "margin-bottom": "50px"
-                    }
-                  },
-                  "button": {
-                    "background-color": "#74c8c0",
-                    "font-family": "Roboto, sans-serif",
-                    ":hover": {
-                      "background-color": "#68b4ad"
-                    },
-                    ":focus": {
-                      "background-color": "#68b4ad"
-                    },
-                    "font-weight": "normal"
-                  },
-                  "variantTitle": {
-                    "font-family": "Roboto, sans-serif",
-                    "color": "#ffffff",
-                    "font-weight": "normal"
-                  },
-                  "title": {
-                    "font-family": "Roboto, sans-serif",
-                    "font-weight": "normal",
-                    "color": "#ffffff"
-                  },
-                  "description": {
-                    "color": "#ffffff",
-                    "font-family": "Roboto, sans-serif",
-                    "font-weight": "normal"
-                  },
-                  "price": {
-                    "font-family": "Roboto, sans-serif",
-                    "color": "#ffffff",
-                    "font-weight": "normal"
-                  },
-                  "compareAt": {
-                    "font-size": "12px",
-                    "font-family": "Roboto, sans-serif",
-                    "font-weight": "normal",
-                    "color": "#ffffff"
+    function ShopifyBuyInit() {
+      var client = ShopifyBuy.buildClient({
+        domain: 'coderspace-org.myshopify.com',
+        apiKey: 'd9de0ac53831dce8421ceff79f16b854',
+        appId: '6',
+      });
+      ShopifyBuy.UI.onReady(client).then(function(ui) {
+        ui.createComponent('product', {
+          id: [1321691709511],
+          node: document.getElementById('product-component-1533060495762'),
+          moneyFormat: '${{amount}}',
+          options: {
+            "product": {
+              "variantId": "all",
+              "width": "240px",
+              "contents": {
+                "imgWithCarousel": false,
+                "variantTitle": false,
+                "description": false,
+                "buttonWithQuantity": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0",
+                    "margin-bottom": "50px"
                   }
                 },
-                "googleFonts": ["Roboto", "Roboto", "Roboto", "Roboto", "Roboto", "Roboto"]
-              },
-              "cart": {
-                "contents": {
-                  "button": true
+                "button": {
+                  "background-color": "#74c8c0",
+                  "font-family": "Roboto, sans-serif",
+                  ":hover": {
+                    "background-color": "#68b4ad"
+                  },
+                  ":focus": {
+                    "background-color": "#68b4ad"
+                  },
+                  "font-weight": "normal"
                 },
-                "styles": {
-                  "cart": {
-                    "background-color": "#e5e5e5"
+                "variantTitle": {
+                  "font-family": "Roboto, sans-serif",
+                  "color": "#ffffff",
+                  "font-weight": "normal"
+                },
+                "title": {
+                  "font-family": "Roboto, sans-serif",
+                  "font-weight": "normal",
+                  "color": "#ffffff"
+                },
+                "description": {
+                  "color": "#ffffff",
+                  "font-family": "Roboto, sans-serif",
+                  "font-weight": "normal"
+                },
+                "price": {
+                  "font-family": "Roboto, sans-serif",
+                  "color": "#ffffff",
+                  "font-weight": "normal"
+                },
+                "compareAt": {
+                  "font-size": "12px",
+                  "font-family": "Roboto, sans-serif",
+                  "font-weight": "normal",
+                  "color": "#ffffff"
+                }
+              },
+              "googleFonts": ["Roboto", "Roboto", "Roboto", "Roboto", "Roboto", "Roboto"]
+            },
+            "cart": {
+              "contents": {
+                "button": true
+              },
+              "styles": {
+                "cart": {
+                  "background-color": "#e5e5e5"
+                },
+                "button": {
+                  "background-color": "#74c8c0",
+                  "font-family": "Roboto, sans-serif",
+                  ":hover": {
+                    "background-color": "#68b4ad"
                   },
-                  "button": {
-                    "background-color": "#74c8c0",
-                    "font-family": "Roboto, sans-serif",
-                    ":hover": {
-                      "background-color": "#68b4ad"
-                    },
-                    ":focus": {
-                      "background-color": "#68b4ad"
-                    },
-                    "font-weight": "normal"
+                  ":focus": {
+                    "background-color": "#68b4ad"
                   },
-                  "title": {
-                    "color": "#000000"
-                  },
-                  "footer": {
-                    "background-color": "#e5e5e5"
-                  },
-                  "header": {
-                    "color": "#000000"
-                  },
-                  "lineItems": {
-                    "color": "#000000"
-                  },
-                  "subtotalText": {
-                    "color": "orange"
+                  "font-weight": "normal"
+                },
+                "title": {
+                  "color": "#000000"
+                },
+                "footer": {
+                  "background-color": "#e5e5e5"
+                },
+                "header": {
+                  "color": "#000000"
+                },
+                "lineItems": {
+                  "color": "#000000"
+                },
+                "subtotalText": {
+                  "color": "orange"
                 },
                 "subtotal": {
                   "color": "#000000"
@@ -469,72 +475,84 @@
               "googleFonts": ["Roboto", "Roboto", "Roboto", "Roboto", "Roboto", "Roboto"]
             },
             "toggle": {
-                "styles": {
-                  "toggle": {
-                    "font-family": "Roboto, sans-serif",
-                    "background-color": "#74c8c0",
-                    ":hover": {
-                      "background-color": "#68b4ad"
-                    },
-                    ":focus": {
-                      "background-color": "#68b4ad"
-                    },
-                    "font-weight": "normal"
-                  }
-                },
-                "googleFonts": ["Roboto"]
-              },
-              "option": {
-                "styles": {
-                  "label": {
-                    "font-family": "Roboto, sans-serif"
+              "styles": {
+                "toggle": {
+                  "font-family": "Roboto, sans-serif",
+                  "background-color": "#74c8c0",
+                  ":hover": {
+                    "background-color": "#68b4ad"
                   },
-                  "select": {
-                    "font-family": "Roboto, sans-serif"
-                  }
-                },
-                  "googleFonts": ["Roboto", "Roboto"]
-              },
-              "productSet": {
-                "styles": {
-                  "products": {
-                    "@media (min-width: 601px)": {
-                      "margin-left": "-20px"
-                    }
-                  }
+                  ":focus": {
+                    "background-color": "#68b4ad"
+                  },
+                  "font-weight": "normal"
                 }
               },
-              "lineItem": {
-                "styles": {
-                  "variantTitle": {
-                    "color": "#000000"
-                  },
-                  "title": {
-                    "color": "#000000"
-                  },
-                  "price": {
-                    "color": "#000000"
-                  },
-                  "quantity": {
-                    "color": "#000000"
-                  },
-                    "quantityIncrement": {
-                    "color": "#000000",
-                    "border-color": "#000000"
-                  },
-                  "quantityDecrement": {
-                    "color": "#000000",
-                    "border-color": "#000000"
-                  },
-                  "quantityInput": {
-                    "color": "#000000",
-                    "border-color": "#000000"
+              "googleFonts": ["Roboto"]
+            },
+            "option": {
+              "styles": {
+                "label": {
+                  "font-family": "Roboto, sans-serif"
+                },
+                "select": {
+                  "font-family": "Roboto, sans-serif"
+                }
+              },
+              "googleFonts": ["Roboto", "Roboto"]
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
                   }
                 }
               }
             },
-          });
+            "lineItem": {
+              "styles": {
+                "variantTitle": {
+                  "color": "#000000"
+                },
+                "title": {
+                  "color": "#000000"
+                },
+                "price": {
+                  "color": "#000000"
+                },
+                "quantity": {
+                  "color": "#000000"
+                },
+                "quantityIncrement": {
+                  "color": "#000000",
+                  "border-color": "#000000"
+                },
+                "quantityDecrement": {
+                  "color": "#000000",
+                  "border-color": "#000000"
+                },
+                "quantityInput": {
+                  "color": "#000000",
+                  "border-color": "#000000"
+                }
+              }
+            }
+          },
         });
-      }
-    })();
-    /*]]>*/
+      });
+    }
+  })();
+  /*]]>*/
+  
+  
+  var myVar;
+
+function myFunction() {
+   myVar = setTimeout(showPage, 1400);
+}
+
+function showPage() {
+ document.getElementById("Loader").style.display = "none";
+ document.getElementById("myDiv").style.display = "block";
+}

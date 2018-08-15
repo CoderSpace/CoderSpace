@@ -10,8 +10,8 @@ icon.addEventListener("click", () => {
 
 });
 let nav2 = document.getElementById("myTopNav2");
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 265) {
+window.addEventListener("scroll" ,() =>{
+  if (window.pageYOffset > 165) {
     nav2.classList.add("stickynav");
   }
   else {
