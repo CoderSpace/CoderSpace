@@ -17,7 +17,13 @@ body {
   align-items: center;
   padding: 5%;
 }
-
+.aboutban{
+  align-items:center;
+  width: 50%;
+  margin: 5em 0 5em 0;
+  display: flex;
+  justify-content:center;
+}
 .subtitles2 {
   display: flex;
   justify-content:center;
