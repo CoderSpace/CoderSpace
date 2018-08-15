@@ -506,7 +506,6 @@ footer a {
   color: #42C0FB;
 }
 
-
 @media screen and (max-width:900px) {
 
   ul.nav {
@@ -524,13 +523,24 @@ footer a {
   }
 }
 
+.fa-li {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: 0;
+  background-color: #1B1C1E;
+  color: white;
 
+}
 
+ul.fa-ul li {
+  font-size: 1.75em;
+  font-family: 'Roboto', sans-serif;
+}
 
 ul.fa-ul {
   margin-left: 5em;
 
-/*}*/
+}
 
 @media screen and (max-width:600px) {
   .partners {
@@ -757,8 +767,7 @@ body {
   clear: both;
 }
 
-
-
+/*clears fields*/
 
 .donation-box .card-only {
   display: block;
@@ -1132,21 +1141,87 @@ body {
     }
 
   }
+  @media screen and (max-width:635px) {
 
-
-#product{
-  width:100%;
-  margin: 1em;
-}
-   
-
-#product{
-  width:100%;
-  margin: 1em;
-}
+  ul.nav li:not(:first-child) {
+    display: none;
   }
-  
+  ul.nav li:first-child {
+    position: absolute;
+    left: -1.5em;
+  }
+  ul.nav li:nth-child(2) {
+    margin-top: 3em;
+  }
+  .nav-logo {
+    height: 3em;
+    margin-top: 0;
+
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
+
 #product{
   width:100%;
   margin: 1em;
 }
+<<<<<<<<< saved version
+    height: 3em;
+    margin-top: 0;
+
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
+
+#product{
+  width:100%;
+  margin: 1em;
+}
+=========
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .9em;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
+
+#product{
+  width:100%;
+  margin: 1em;
+}
+
+>>>>>>>>> local version
+  @media screen and (max-width:600px) {}
