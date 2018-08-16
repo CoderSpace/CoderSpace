@@ -161,7 +161,7 @@ a {
 
 /*for program.html*/
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:900px) {
   .programs {
     display: flex;
     justify-content: center;
@@ -200,11 +200,11 @@ a {
 
 /*for index.html*/
 
-@media screen and (max-width:835px) {}
+@media screen and (max-width:900px) {}
 
 /*for about.html*/
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:900px) {
   .organizers {
     display: flex;
     flex-wrap: wrap;
@@ -398,7 +398,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width:635px) {
+@media screen and (max-width:900px) {
 
   ul.nav li:not(:first-child) {
     display: none;
@@ -1079,7 +1079,7 @@ body {
   }
 
   /*for program.html*/
-  @media screen and (max-width:835px) {
+  @media screen and (max-width:900px) {
     .programs {
       display: flex;
       justify-content: center;
@@ -1117,10 +1117,10 @@ body {
   }
 
   /*for index.html*/
-  @media screen and (max-width:835px) {}
+  @media screen and (max-width:900px) {}
 
   /*for about.html*/
-  @media screen and (max-width:835px) {
+  @media screen and (max-width:900px) {
     .organizers {
       display: flex;
       flex-wrap: wrap;
@@ -1191,12 +1191,7 @@ body {
   width:100%;
   margin: 1em;
 }
-<<<<<<<<< saved version
-    height: 3em;
-    margin-top: 0;
-
-  }
-  ul.nav {
+ul.nav {
     flex-direction: column;
   }
 
@@ -1209,33 +1204,9 @@ body {
   ul.nav.responsive li {
     display: block;
   }
-}
+
 
 #product{
   width:100%;
   margin: 1em;
 }
-=========
-  }
-  ul.nav {
-    flex-direction: column;
-  }
-
-  ul.nav li.icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: .9em;
-  }
-  ul.nav.responsive li {
-    display: block;
-  }
-}
-
-#product{
-  width:100%;
-  margin: 1em;
-}
-
->>>>>>>>> local version
-  @media screen and (max-width:600px) {}
