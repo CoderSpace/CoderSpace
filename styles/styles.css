@@ -630,7 +630,7 @@ button:active {
 @media screen and (min-width:320px) and (max-width:1400px){
 /*@media screen and (min-width:410px) and (max-width:481px){*/
 .form{
-  height: 213em;
+  height: 350em;
 }
 }
 
@@ -658,7 +658,7 @@ body {
 }
 
 .product2 {
-  margin-top: 35px;
+  /*margin-top: 35px;*/
 }
 
 .dots {
@@ -666,11 +666,11 @@ body {
   justify-content: center;
   align-items: center;
   /*margin-left:100em;*/
-  height:100vh;
+  height:60vh;
 }
 
 .fa-spinner {
-  color:#74c8c0;
+  color: white;
 }
 
 @-webkit-keyframes spin {
