@@ -430,6 +430,10 @@ footer {
   }
 }
 
+.nav--highlight {
+  color: yellow;
+}
+
 main {
 
   width: 80%;
